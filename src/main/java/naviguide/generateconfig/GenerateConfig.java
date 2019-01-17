@@ -57,7 +57,7 @@ public class GenerateConfig   extends AbstractMojo {
     	for(MavenProject project: projects){
     		logger.info("find project: " + project.getId());	
         	for(Profile p: project.getModel().getProfiles()){
-        		logger.info("find profile: " + p.getId());	
+        		logger.info(" => find profile: " + p.getId());	
         	}
     	}
     	
